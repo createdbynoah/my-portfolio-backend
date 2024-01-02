@@ -14,7 +14,7 @@ const experiences: SchemaTypeDefinition = {
       name: 'works',
       title: 'Works',
       type: 'array',
-      of: [{type: 'workExperience'}],
+      of: [{type: 'workExperiences'}],
     },
   ],
 }
