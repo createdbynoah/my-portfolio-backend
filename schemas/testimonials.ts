@@ -16,7 +16,7 @@ const testimonials: SchemaTypeDefinition = {
       type: 'string',
     },
     {
-      name: 'imageurl',
+      name: 'imageUrl',
       title: 'Image URL',
       type: 'image',
       options: {
@@ -28,11 +28,7 @@ const testimonials: SchemaTypeDefinition = {
       title: 'Testimonial',
       type: 'text',
     },
-    {
-      name: 'image',
-      title: 'Image',
-      type: 'image',
-    },
+   
   ],
 }
 

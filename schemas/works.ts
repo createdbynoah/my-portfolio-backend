@@ -26,7 +26,7 @@ const works: SchemaTypeDefinition = {
       type: 'string',
     },
     {
-      name: 'imageurl',
+      name: 'imageUrl',
       title: 'Image URL',
       type: 'image',
       options: {
