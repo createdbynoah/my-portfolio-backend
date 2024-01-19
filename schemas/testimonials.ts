@@ -16,6 +16,16 @@ const testimonials: SchemaTypeDefinition = {
       type: 'string',
     },
     {
+      name: 'jobTitle',
+      title: 'Job Title',
+      type: 'string',
+    },
+    {
+      name: 'linkedInUrl',
+      title: 'LinkedIn URL',
+      type: 'string',
+    },
+    {
       name: 'imageUrl',
       title: 'Image URL',
       type: 'image',
