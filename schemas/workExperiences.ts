@@ -6,8 +6,8 @@ const workExperiences: SchemaTypeDefinition = {
   type: 'document',
   fields: [
     {
-      name: 'name',
-      title: 'Name',
+      name: 'jobTitle',
+      title: 'Job Title',
       type: 'string',
     },
     {
@@ -16,10 +16,28 @@ const workExperiences: SchemaTypeDefinition = {
       type: 'string',
     },
     {
+      name: 'startDate',
+      title: 'Start Date',
+      type: 'string',
+      placeholder: '"Jan 2023" or "2023" or "Present"'
+    },
+    {
+      name: 'endDate',
+      title: 'End Date',
+      type: 'string',
+      placeholder: '"Jan 2023" or "2023" or "Present"'
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
     },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [{type: 'string'}],
+    }
   ],
 }
 
