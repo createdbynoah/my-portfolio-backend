@@ -6,6 +6,8 @@ import workExperiences from './workExperiences'
 import experiences from './experiences'
 import skills from './skills'
 import works from './works'
+import projects from './projects'
+import projectCategories from './projectCategories'
 
 export const schemaTypes = [
   testimonials,
@@ -16,4 +18,6 @@ export const schemaTypes = [
   experiences,
   skills,
   works,
+  projects,
+  projectCategories,
 ]
