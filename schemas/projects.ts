@@ -16,6 +16,14 @@ const projects: SchemaTypeDefinition = {
       type: 'string',
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'name',
+      },
+    },
+    {
       name: 'heroImageUrl',
       title: 'Hero Image',
       type: 'image',
