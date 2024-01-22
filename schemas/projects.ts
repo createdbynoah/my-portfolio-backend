@@ -64,6 +64,11 @@ const projects: SchemaTypeDefinition = {
       type: 'string',
     },
     {
+        name: 'rank',
+        title: 'Rank',
+        type: 'number',
+    },
+    {
         name: 'categories',
         title: 'Categories',
         type: 'array',
