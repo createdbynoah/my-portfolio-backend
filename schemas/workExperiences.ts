@@ -6,6 +6,16 @@ const workExperiences: SchemaTypeDefinition = {
   type: 'document',
   fields: [
     {
+      name: 'isPublished',
+      title: 'Published',
+      type: 'boolean',
+    },
+    {
+      name: 'order',
+      title: 'Display Order',
+      type: 'number',
+    },
+    {
       name: 'jobTitle',
       title: 'Job Title',
       type: 'string',
@@ -28,13 +38,31 @@ const workExperiences: SchemaTypeDefinition = {
       placeholder: '"Jan 2023" or "2023" or "Present"'
     },
     {
+      name: 'summary',
+      title: 'Summary',
+      type: 'text',
+    },
+    {
+      name: 'responsibilities',
+      title: 'Responsibilities',
+      type: 'array',
+      of: [{type: 'block'}],
+    },
+    {
       name: 'description',
       title: 'Description',
-      type: 'text',
+      type: 'array',
+      of: [{type: 'block'}],
     },
     {
       name: 'tags',
       title: 'Tags',
+      type: 'array',
+      of: [{type: 'string'}],
+    },
+    {
+      name: 'tools',
+      title: 'Tools Used',
       type: 'array',
       of: [{type: 'string'}],
     }

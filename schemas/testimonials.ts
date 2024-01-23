@@ -6,6 +6,11 @@ const testimonials: SchemaTypeDefinition = {
   type: 'document',
   fields: [
     {
+      name: 'isPublished',
+      title: 'Published',
+      type: 'boolean',
+    },
+    {
       name: 'name',
       title: 'Name',
       type: 'string',

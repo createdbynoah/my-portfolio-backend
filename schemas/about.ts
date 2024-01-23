@@ -6,6 +6,11 @@ const about: SchemaTypeDefinition = {
   type: 'document',
   fields: [
     {
+      name: 'isPublished',
+      title: 'Published',
+      type: 'boolean',
+    },
+    {
       name: 'title',
       title: 'Title',
       type: 'string',
