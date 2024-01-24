@@ -16,6 +16,11 @@ const projectCategories: SchemaTypeDefinition = {
         type: 'boolean',
     },
     {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+    },
+    {
         name: 'projects',
         title: 'Projects',
         type: 'array',
