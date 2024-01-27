@@ -26,6 +26,11 @@ const workExperiences: SchemaTypeDefinition = {
       type: 'string',
     },
     {
+      name: 'website',
+      title: 'Company Website',
+      type: 'string',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
