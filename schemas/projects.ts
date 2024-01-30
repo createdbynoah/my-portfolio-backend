@@ -54,6 +54,23 @@ const projects: SchemaTypeDefinition = {
       of: [{type: 'block'}],
     },
     {
+      name: 'client',
+      title: 'Client',
+      type: 'object',
+      fields: [
+        {
+          name: 'name',
+          title: 'Name',
+          type: 'string',
+        },
+        {
+          name: 'url',
+          title: 'URL',
+          type: 'string',
+        },
+      ],
+    },
+    {
       name: 'projectLink',
       title: 'Project Link',
       type: 'string',
